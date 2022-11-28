@@ -24,7 +24,6 @@ namespace Asp.NETCoreAPI.Services
         {
             return _shoppingCart;
         }
-
         public ShoppingItem Add(ShoppingItem newItem) 
         {
             newItem.Id=Guid.NewGuid();
