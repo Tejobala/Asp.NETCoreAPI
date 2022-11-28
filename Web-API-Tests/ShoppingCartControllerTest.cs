@@ -18,6 +18,7 @@ namespace Web_API_Tests
             _services = new ShoppingCartServiceFake();
             _Controller = new ShoppingCartController(_services);
         }
+
         [Fact]
         public void Get_WhenCalled_ReturnOkResult()
         {
